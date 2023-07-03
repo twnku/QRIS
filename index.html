@@ -360,8 +360,8 @@
 
     <!-- BEGIN: Page Vendor JS-->
     <script src="/assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
-    <script src="/qris/qr-scanner.umd.min.js"></script>
-    <script src='/qris/autosize.min.js'></script>
+    <script src="/QRIS/qr-scanner.umd.min.js"></script>
+    <script src='/QRIS/autosize.min.js'></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -413,7 +413,7 @@
         });
         
         $('#genstkr').click(function(){
-            $('#qris_sticker_img').attr('src', "https://twnku.com/qris/sticker?name="+$('#sticker_name').val()+"&nmid="+$('#sticker_nmid').val()+"&ver="+$('#sticker_version').val()+"&img="+$('#sticker_data').val());
+            $('#qris_sticker_img').attr('src', "https://twnku.github.io/QRIS/sticker.php?name="+$('#sticker_name').val()+"&nmid="+$('#sticker_nmid').val()+"&ver="+$('#sticker_version').val()+"&img="+$('#sticker_data').val());
         });
         
         $('#generateQris').click(function(){
@@ -474,7 +474,7 @@
             nmId = subData2Data.substr(4+parseInt(a1)+4, parseInt(a2));
             $.ajax({
                 type: 'POST',
-                url: 'https://twnku.com/qris/checksum',
+                url: 'https://twnku.github.io/QRIS/checksum.php',
                 dataType: "json",
                 data: {
                     "data": $('#checkSumval').val()
@@ -582,7 +582,7 @@
             
             $.ajax({
                 type: 'POST',
-                url: 'https://twnku.com/qris/checksum',
+                url: 'https://twnku.github.io/QRIS/checksum.php',
                 dataType: "json",
                 data: {
                     "data": sendData
