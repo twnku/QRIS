@@ -1,0 +1,136 @@
+[15-May-2023 18:52:32 UTC] PHP Warning:  imagettfbbox(): Could not read font in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 124
+[15-May-2023 18:52:32 UTC] PHP Stack trace:
+[15-May-2023 18:52:32 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:52:32 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:52:32 UTC] PHP   3. PHPImageWorkshop\Core\ImageWorkshopLib::getTextBoxDimension($fontSize = 8, $fontAngle = 0, $fontFile = '/home/twnkucom/public_html/qris/font.ttf', $text = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php:124
+[15-May-2023 18:52:32 UTC] PHP   4. imagettfbbox($size = 8, $angle = 0, $font_filename = '/home/twnkucom/public_html/qris/font.ttf', $string = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:124
+[15-May-2023 18:52:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:52:32 UTC] PHP Stack trace:
+[15-May-2023 18:52:32 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:52:32 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:52:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:52:32 UTC] PHP Stack trace:
+[15-May-2023 18:52:32 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:52:32 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:52:32 UTC] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #1 ($width) must be greater than 0 in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:100
+Stack trace:
+#0 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php(100): imagecreatetruecolor()
+#1 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(150): PHPImageWorkshop\Core\ImageWorkshopLib::generateImage()
+#2 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(126): PHPImageWorkshop\ImageWorkshop::initVirginLayer()
+#3 /home/twnkucom/public_html/qris/sticker.php(11): PHPImageWorkshop\ImageWorkshop::initTextLayer()
+#4 {main}
+  thrown in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 100
+[15-May-2023 18:53:25 UTC] PHP Warning:  imagettfbbox(): Could not read font in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 124
+[15-May-2023 18:53:25 UTC] PHP Stack trace:
+[15-May-2023 18:53:25 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:53:25 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:53:25 UTC] PHP   3. PHPImageWorkshop\Core\ImageWorkshopLib::getTextBoxDimension($fontSize = 8, $fontAngle = 0, $fontFile = '/home/twnkucom/public_html/qris/font.ttf', $text = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php:124
+[15-May-2023 18:53:25 UTC] PHP   4. imagettfbbox($size = 8, $angle = 0, $font_filename = '/home/twnkucom/public_html/qris/font.ttf', $string = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:124
+[15-May-2023 18:53:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:53:25 UTC] PHP Stack trace:
+[15-May-2023 18:53:25 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:53:25 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:53:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:53:25 UTC] PHP Stack trace:
+[15-May-2023 18:53:25 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:53:25 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/font.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:53:25 UTC] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #1 ($width) must be greater than 0 in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:100
+Stack trace:
+#0 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php(100): imagecreatetruecolor()
+#1 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(150): PHPImageWorkshop\Core\ImageWorkshopLib::generateImage()
+#2 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(126): PHPImageWorkshop\ImageWorkshop::initVirginLayer()
+#3 /home/twnkucom/public_html/qris/sticker.php(11): PHPImageWorkshop\ImageWorkshop::initTextLayer()
+#4 {main}
+  thrown in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 100
+[15-May-2023 18:54:48 UTC] PHP Warning:  imagettfbbox(): Could not read font in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 124
+[15-May-2023 18:54:48 UTC] PHP Stack trace:
+[15-May-2023 18:54:48 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:54:48 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/ArialMdm.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:54:48 UTC] PHP   3. PHPImageWorkshop\Core\ImageWorkshopLib::getTextBoxDimension($fontSize = 8, $fontAngle = 0, $fontFile = '/home/twnkucom/public_html/qris/ArialMdm.ttf', $text = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php:124
+[15-May-2023 18:54:48 UTC] PHP   4. imagettfbbox($size = 8, $angle = 0, $font_filename = '/home/twnkucom/public_html/qris/ArialMdm.ttf', $string = 'NMID: 1234') /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:124
+[15-May-2023 18:54:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:54:48 UTC] PHP Stack trace:
+[15-May-2023 18:54:48 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:54:48 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/ArialMdm.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:54:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php on line 126
+[15-May-2023 18:54:48 UTC] PHP Stack trace:
+[15-May-2023 18:54:48 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 18:54:48 UTC] PHP   2. PHPImageWorkshop\ImageWorkshop::initTextLayer($text = 'NMID: 1234', $fontPath = '/home/twnkucom/public_html/qris/ArialMdm.ttf', $fontSize = 8, $fontColor = 313131, $textRotation = 0, $backgroundColor = *uninitialized*) /home/twnkucom/public_html/qris/sticker.php:11
+[15-May-2023 18:54:48 UTC] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #1 ($width) must be greater than 0 in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:100
+Stack trace:
+#0 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php(100): imagecreatetruecolor()
+#1 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(150): PHPImageWorkshop\Core\ImageWorkshopLib::generateImage()
+#2 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(126): PHPImageWorkshop\ImageWorkshop::initVirginLayer()
+#3 /home/twnkucom/public_html/qris/sticker.php(11): PHPImageWorkshop\ImageWorkshop::initTextLayer()
+#4 {main}
+  thrown in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 100
+[15-May-2023 19:33:50 UTC] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #1 ($width) must be greater than 0 in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:140
+Stack trace:
+#0 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php(140): imagecreatetruecolor()
+#1 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(124): PHPImageWorkshop\Core\ImageWorkshopLib::getTextBoxDimension()
+#2 /home/twnkucom/public_html/qris/sticker.php(17): PHPImageWorkshop\ImageWorkshop::initTextLayer()
+#3 {main}
+  thrown in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 140
+[15-May-2023 19:34:02 UTC] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #2 ($height) must be greater than 0 in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php:140
+Stack trace:
+#0 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php(140): imagecreatetruecolor()
+#1 /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/ImageWorkshop.php(124): PHPImageWorkshop\Core\ImageWorkshopLib::getTextBoxDimension()
+#2 /home/twnkucom/public_html/qris/sticker.php(17): PHPImageWorkshop\ImageWorkshop::initTextLayer()
+#3 {main}
+  thrown in /home/twnkucom/public_html/qris/vendor/sybio/image-workshop/src/Core/ImageWorkshopLib.php on line 140
+[15-May-2023 19:44:04 UTC] PHP Fatal error:  Uncaught Error: Object of class GdImage could not be converted to string in /home/twnkucom/public_html/qris/sticker.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 30
+[15-May-2023 19:47:08 UTC] PHP Fatal error:  Uncaught TypeError: imagejpeg(): Argument #1 ($image) must be of type GdImage, string given in /home/twnkucom/public_html/qris/sticker.php:29
+Stack trace:
+#0 /home/twnkucom/public_html/qris/sticker.php(29): imagejpeg()
+#1 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 29
+[15-May-2023 19:47:27 UTC] PHP Fatal error:  Uncaught Error: Object of class PHPImageWorkshop\Core\ImageWorkshopLayer could not be converted to string in /home/twnkucom/public_html/qris/sticker.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 29
+[15-May-2023 19:47:44 UTC] PHP Fatal error:  Uncaught Error: Object of class GdImage could not be converted to string in /home/twnkucom/public_html/qris/sticker.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 29
+[15-May-2023 19:47:46 UTC] PHP Fatal error:  Uncaught Error: Object of class GdImage could not be converted to string in /home/twnkucom/public_html/qris/sticker.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 29
+[15-May-2023 19:51:46 UTC] PHP Warning:  Undefined variable $layer in /home/twnkucom/public_html/qris/sticker.php on line 31
+[15-May-2023 19:51:46 UTC] PHP Stack trace:
+[15-May-2023 19:51:46 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 19:51:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function cropInPercent() on null in /home/twnkucom/public_html/qris/sticker.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/twnkucom/public_html/qris/sticker.php on line 31
+[15-May-2023 20:03:58 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?cht=qr&amp;chl=INVALID IMAGE | TWNKU.COM&amp;chs=500x500&amp;choe=UTF-8&amp;chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22): Failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/twnkucom/public_html/qris/sticker.php on line 12
+[15-May-2023 20:03:58 UTC] PHP Stack trace:
+[15-May-2023 20:03:58 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 20:03:58 UTC] PHP   2. file_get_contents($filename = 'https://chart.googleapis.com/chart?cht=qr&chl=INVALID IMAGE | TWNKU.COM&chs=500x500&choe=UTF-8&chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22') /home/twnkucom/public_html/qris/sticker.php:12
+[15-May-2023 20:04:21 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?cht=qr&amp;chl=INVALID IMAGE | TWNKU.COM&amp;chs=500x500&amp;choe=UTF-8&amp;chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22): Failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/twnkucom/public_html/qris/sticker.php on line 12
+[15-May-2023 20:04:21 UTC] PHP Stack trace:
+[15-May-2023 20:04:21 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 20:04:21 UTC] PHP   2. file_get_contents($filename = 'https://chart.googleapis.com/chart?cht=qr&chl=INVALID IMAGE | TWNKU.COM&chs=500x500&choe=UTF-8&chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22') /home/twnkucom/public_html/qris/sticker.php:12
+[15-May-2023 20:04:42 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?cht=qr&amp;chl=INVALID IMAGE | TWNKU.COM&amp;chs=500x500&amp;choe=UTF-8&amp;chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22): Failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/twnkucom/public_html/qris/sticker.php on line 12
+[15-May-2023 20:04:42 UTC] PHP Stack trace:
+[15-May-2023 20:04:42 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 20:04:42 UTC] PHP   2. file_get_contents($filename = 'https://chart.googleapis.com/chart?cht=qr&chl=INVALID IMAGE | TWNKU.COM&chs=500x500&choe=UTF-8&chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22') /home/twnkucom/public_html/qris/sticker.php:12
+[15-May-2023 20:04:43 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?cht=qr&amp;chl=INVALID IMAGE | TWNKU.COM&amp;chs=500x500&amp;choe=UTF-8&amp;chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22): Failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/twnkucom/public_html/qris/sticker.php on line 12
+[15-May-2023 20:04:43 UTC] PHP Stack trace:
+[15-May-2023 20:04:43 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 20:04:43 UTC] PHP   2. file_get_contents($filename = 'https://chart.googleapis.com/chart?cht=qr&chl=INVALID IMAGE | TWNKU.COM&chs=500x500&choe=UTF-8&chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22') /home/twnkucom/public_html/qris/sticker.php:12
+[15-May-2023 20:04:46 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?cht=qr&amp;chl=INVALID IMAGE | TWNKU.COM&amp;chs=500x500&amp;choe=UTF-8&amp;chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22): Failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/twnkucom/public_html/qris/sticker.php on line 12
+[15-May-2023 20:04:46 UTC] PHP Stack trace:
+[15-May-2023 20:04:46 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/sticker.php:0
+[15-May-2023 20:04:46 UTC] PHP   2. file_get_contents($filename = 'https://chart.googleapis.com/chart?cht=qr&chl=INVALID IMAGE | TWNKU.COM&chs=500x500&choe=UTF-8&chld=L|2%22%20rel=%22nofollow%22%20alt=%22qr%20code%22') /home/twnkucom/public_html/qris/sticker.php:12
+[16-May-2023 03:33:26 UTC] PHP Warning:  Undefined array key "data" in /home/twnkucom/public_html/qris/checksum.php on line 13
+[16-May-2023 03:33:26 UTC] PHP Stack trace:
+[16-May-2023 03:33:26 UTC] PHP   1. {main}() /home/twnkucom/public_html/qris/checksum.php:0
