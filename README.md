@@ -1,4 +1,7 @@
 # QRIS
+cek [twnku/qrisgen](https://github.com/twnku/qrisgen)  buat versi github page (html)
+[DEMO](https://github.com/twnku/qrisgen)
+#
 QRIS Generator
 ```json
 {
